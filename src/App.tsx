@@ -16,7 +16,7 @@ import { Loading } from "./components/Lotties"
 const router = createBrowserRouter(
   routes,
   process.env.NODE_ENV == "production"
-    ? { basename: "/blog/markdown-editor/" }
+    ? { basename: "" }
     : undefined,
 )
 //const router = createBrowserRouter(routes, { basename: "/blog/example/" })

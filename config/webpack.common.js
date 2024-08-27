@@ -76,7 +76,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Align Mini",
+      title: "Align app",
       template: "./public/index.html",
     }),
   ],
